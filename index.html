@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Troop 999 · All-Girls Scouting</title>
+  <meta name="description" content="Troop 999 is an all-girls troop affiliated with Scouting America. See upcoming events and find out how to join.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html">
+        <!-- To add a logo: drop a file at images/logo.png and uncomment the line below. -->
+        <!-- <img class="brand-logo" src="images/logo.png" alt="Troop 999 logo"> -->
+        <span class="brand-text">Troop 999</span>
+      </a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="events.html">Events</a>
+        <a href="contact.html">Join Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <h1>Troop 999</h1>
+        <p class="tagline" data-content="hero.tagline"></p>
+        <a class="btn" href="contact.html" data-content="hero.ctaLabel"></a>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <h2>About Our Troop</h2>
+        <p data-content="about"></p>
+        <p class="meeting-info" data-content="meetingInfo"></p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <h2>Upcoming Events</h2>
+        <div class="events" id="events-preview"></div>
+        <a class="section-link" href="events.html">See all events →</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p data-content="footer"></p>
+    </div>
+  </footer>
+
+  <script src="js/content.js"></script>
+  <script src="js/events.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

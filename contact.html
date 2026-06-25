@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Join Us · Troop 999</title>
+  <meta name="description" content="Interested in joining Troop 999? Get in touch and a troop leader will reach out.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html">
+        <!-- To add a logo: drop a file at images/logo.png and uncomment the line below. -->
+        <!-- <img class="brand-logo" src="images/logo.png" alt="Troop 999 logo"> -->
+        <span class="brand-text">Troop 999</span>
+      </a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="index.html">Home</a>
+        <a href="events.html">Events</a>
+        <a href="contact.html" aria-current="page">Join Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="wrap">
+        <h2>Join Troop 999</h2>
+        <p data-content="contactIntro"></p>
+
+        <form class="form" id="contact-form" novalidate>
+          <div class="field">
+            <label for="name">Parent/Guardian Name <span class="req" aria-hidden="true">*</span></label>
+            <input type="text" id="name" name="name" autocomplete="name" required>
+          </div>
+
+          <div class="field">
+            <label for="email">Email Address <span class="req" aria-hidden="true">*</span></label>
+            <input type="email" id="email" name="email" autocomplete="email" required>
+          </div>
+
+          <div class="field">
+            <label for="phone">Phone Number <span class="optional">(optional)</span></label>
+            <input type="tel" id="phone" name="phone" autocomplete="tel">
+          </div>
+
+          <div class="field">
+            <label for="message">Message or Questions <span class="optional">(optional)</span></label>
+            <textarea id="message" name="message"></textarea>
+          </div>
+
+          <p class="form-error" id="form-error" role="alert" hidden>
+            Sorry, something went wrong sending your message. Please try again, or email us directly.
+          </p>
+
+          <button class="btn" type="submit">Send Message</button>
+
+          <p class="privacy-note" data-content="privacyNote"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p data-content="footer"></p>
+    </div>
+  </footer>
+
+  <script src="js/content.js"></script>
+  <script src="js/events.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
