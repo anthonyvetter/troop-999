@@ -1,6 +1,6 @@
 # Troop 999 Website
 
-A simple website for Troop 999, an all-girls troop affiliated with Scouting America.
+A simple website for Troop 999, an all-female troop affiliated with Scouting America.
 Plain HTML, CSS, and JavaScript — no build tools, no frameworks. Hosted free on GitHub Pages.
 
 ---

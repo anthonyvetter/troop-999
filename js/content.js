@@ -11,12 +11,12 @@ const CONTENT = {
 
   // The big headline tagline on the homepage
   hero: {
-    tagline: "Building confident girls, one adventure at a time.",
+    tagline: "Building confident kids, one adventure at a time.",
     ctaLabel: "Join Our Troop"
   },
 
   // 2–3 sentence introduction shown on the homepage
-  about: "Troop 999 is an all-girls troop proudly affiliated with Scouting America. We hike, camp, lead, and serve our community together — building lifelong friendships and real-world skills along the way. New families are always welcome.",
+  about: "Troop 999 is an all-female troop proudly affiliated with Scouting America. We welcome all who identify as female. We hike, camp, lead, and serve our community together — building lifelong friendships and real-world skills along the way. New families are always welcome.",
 
   // Where & when the troop meets — shown on the homepage.
   // *** Replace the bracketed parts with your real details before launch. ***

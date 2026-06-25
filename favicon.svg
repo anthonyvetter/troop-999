@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Troop 999">
-  <rect width="64" height="64" rx="14" fill="#00843D"/>
+  <rect width="64" height="64" rx="14" fill="#C2185B"/>
   <path d="M32 12l4.6 9.3 10.3 1.5-7.4 7.3 1.7 10.2L32 45.4l-9.2 4.9 1.7-10.2-7.4-7.3 10.3-1.5z" fill="#FFC72C"/>
   <text x="32" y="58" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#ffffff">999</text>
 </svg>

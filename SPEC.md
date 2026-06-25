@@ -2,7 +2,7 @@
 
 ## Overview
 
-A simple, parent-facing website for an all-girls Scouting America troop. The goal is to give parents a clear, trustworthy place to find upcoming events and get in touch with troop leadership.
+A simple, parent-facing website for an all-female Scouting America troop. The goal is to give parents a clear, trustworthy place to find upcoming events and get in touch with troop leadership.
 
 ---
 
@@ -42,7 +42,7 @@ const CONTENT = {
     tagline: "Building tomorrow's leaders, one adventure at a time.",
     ctaLabel: "Join Us"
   },
-  about: "We are Troop 999, an all-girls troop proudly affiliated with Scouting America. We meet weekly and love camping, service projects, and earning badges together.",
+  about: "We are Troop 999, an all-female troop proudly affiliated with Scouting America. We welcome all who identify as female. We meet weekly and love camping, service projects, and earning badges together.",
   // Where & when the troop meets — shown on the homepage. Fill in real details before launch.
   meetingInfo: "We meet [day] at [time] at [location, town].",
   contactIntro: "Interested in joining Troop 999? Fill out the form below and a troop leader will be in touch soon.",
@@ -107,7 +107,7 @@ Global nav present on all pages:
 ### Homepage (`index.html`)
 
 - **Hero section:** Troop name/number, a one-line tagline, and a "Join Us" CTA button linking to `contact.html`
-- **About blurb:** 2–3 sentences about the troop (Scouting America, all-girls, what makes the troop special)
+- **About blurb:** 2–3 sentences about the troop (Scouting America, all-female, what makes the troop special)
 - **Meeting info:** A short "where & when we meet" line (`meetingInfo` from `content.js`) so prospective parents can find this at a glance
 - **Upcoming events preview:** Show the next 2–3 events pulled from a shared data structure (a JS array in `events.js`), with a "See all events" link
 - **Footer:** Troop name, Scouting America affiliation notice — no email displayed publicly
@@ -143,14 +143,14 @@ Global nav present on all pages:
 
 ## Design Guidelines
 
-- **Palette:** Use Scouting America green (`#00843D`) as primary, white and light gray as neutrals, gold/yellow (`#FFC72C`) as accent
+- **Palette:** Use pink (`#C2185B`) as primary with a darker pink (`#9E1450`) for hover/footer, white and light gray as neutrals, gold/yellow (`#FFC72C`) as accent
 - **Typography:** Clean, readable sans-serif (e.g., system font stack or Google Fonts — no more than 2 typefaces)
 - **Tone:** Friendly, welcoming, community-focused — not overly corporate
-- **Images:** No photos for now — hero uses a solid green background with a subtle SVG pattern overlay. One placeholder logo spot in the header (text fallback until a real logo is provided). All image slots are clearly commented in HTML so swapping in real assets later requires only changing a file path.
+- **Images:** No photos for now — hero uses a solid pink background with a subtle SVG pattern overlay. One placeholder logo spot in the header (text fallback until a real logo is provided). All image slots are clearly commented in HTML so swapping in real assets later requires only changing a file path.
 - **Mobile-first:** Layout must work well on phones since parents will likely browse on mobile
 - **Mobile nav:** Nav links stack vertically on small screens — no hamburger menu
 - **Accessibility:** Sufficient color contrast, semantic HTML, form labels tied to inputs
-- **Page basics (every page):** Descriptive `<title>` (e.g. "Events · Troop 999"), a `<meta name="description">`, viewport meta tag, and a shared `favicon.svg` so browsers don't 404. Favicon can be a simple green badge placeholder, swappable later.
+- **Page basics (every page):** Descriptive `<title>` (e.g. "Events · Troop 999"), a `<meta name="description">`, viewport meta tag, and a shared `favicon.svg` so browsers don't 404. Favicon can be a simple pink badge placeholder, swappable later.
 
 ---
 
@@ -179,7 +179,7 @@ troop-999/
 │   └── main.js
 ├── images/
 │   └── logo.png               ← swap this file to update the logo (keep same filename)
-├── favicon.svg                ← browser tab icon (placeholder green badge)
+├── favicon.svg                ← browser tab icon (placeholder pink badge)
 └── README.md                  ← setup & editing instructions for the troop webmaster
 ```
 
