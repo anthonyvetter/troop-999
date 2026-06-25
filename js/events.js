@@ -1,17 +1,40 @@
 /* ============================================================
    TROOP 999 — UPCOMING EVENTS
-   ------------------------------------------------------------
-   Non-technical leaders: add, edit, or remove events below.
-   Each event sits between { curly braces } and ends with a comma.
-   Copy an existing block to add a new event.
+   ============================================================
 
-   - date must be in YYYY-MM-DD form (e.g. 2026-07-15)
-   - time, location, and description are optional — delete a line
-     you don't need (but keep the others).
-   - Past events disappear automatically. You never need to delete
-     old ones, though you can if you like.
+   WHAT THIS FILE IS
+   This file holds the events shown on the website. No programs to
+   install — you edit it right here on the GitHub website.
 
-   Save and push to GitHub when done.
+   HOW TO EDIT
+   1. Click the pencil icon ("Edit this file") at the top-right.
+   2. Each event is one block between { curly braces } ending in a
+      comma. Change ONLY the text inside the "quotation marks".
+
+      - TO ADD an event: copy a whole block (from the "{" down to
+        the "}," including that comma), paste it right below, then
+        change the details.
+      - TO EDIT an event: change the text inside the quotes.
+      - TO REMOVE an event: delete its whole block, "{" through "},".
+        (Usually not needed — past events disappear on their own.)
+
+      Keep "date" in YEAR-MONTH-DAY form, like  "2026-09-15".
+      The time, location, and description lines are optional — you
+      may delete a whole line you don't need, but keep the others.
+
+   HOW TO SAVE AND PUBLISH  (on GitHub, saving = publishing)
+   3. Click the green "Commit changes..." button (top-right).
+   4. Type a short note like "Add September campout", leave the rest.
+   5. Make sure "Commit directly to the main branch" is selected,
+      then click the green "Commit changes" button.
+   6. Done — you just published. Wait about ONE MINUTE, then open
+      the live site and refresh:
+        https://anthonyvetter.github.io/troop-999/
+      (Still see the old list? Refresh again — on a Mac press
+       Cmd+Shift+R, on Windows Ctrl+Shift+R.)
+
+   MADE A MISTAKE?  Nothing breaks permanently. See "If something
+   looks broken" in README.md to undo an edit.
    ============================================================ */
 
 const EVENTS = [

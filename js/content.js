@@ -1,10 +1,34 @@
 /* ============================================================
    TROOP 999 — SITE COPY
-   ------------------------------------------------------------
-   Non-technical leaders: edit the text between the quotes below.
-   Do NOT change the words on the left (before the colon) or the
-   punctuation around them. When you're done, save the file and
-   push to GitHub — the site updates within about a minute.
+   ============================================================
+
+   WHAT THIS FILE IS
+   This file holds the words shown on the website. Change the text
+   here to change the website. No programs to install.
+
+   HOW TO EDIT (right here on the GitHub website)
+   1. Click the pencil icon (it says "Edit this file") at the
+      top-right of this file.
+   2. Change ONLY the text inside the "quotation marks".
+        OK to change:  tagline: "Your new words here"
+        Do NOT change: the word before the colon (like  tagline: ),
+                        the quotation marks, the commas, or the { }.
+
+   HOW TO SAVE AND PUBLISH  (on GitHub, saving = publishing)
+   3. Click the green "Commit changes..." button (top-right).
+   4. In the box that appears, type a short note like
+      "Update the tagline", leave the rest as-is.
+   5. Make sure "Commit directly to the main branch" is selected,
+      then click the green "Commit changes" button.
+   6. That's it — you just published. Wait about ONE MINUTE, then
+      open the live site and refresh:
+        https://anthonyvetter.github.io/troop-999/
+      (If you still see the old words, refresh once more — your
+       browser may be showing a saved copy. On a Mac press
+       Cmd+Shift+R; on Windows press Ctrl+Shift+R.)
+
+   MADE A MISTAKE?  You can't break anything permanently. See the
+   "If something looks broken" steps in README.md to undo an edit.
    ============================================================ */
 
 const CONTENT = {
