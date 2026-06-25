@@ -54,35 +54,71 @@ You'll need a free [GitHub](https://github.com) account. Do this once.
 
 ---
 
-## 2. Updating the site
+## 2. Updating the site (no software needed)
 
-**Every change merged to the `main` branch goes live automatically** within about a minute —
-no separate "publish" step.
+You can update the wording and events right on the GitHub website — no programs to
+install, no terminal, nothing to download. **On GitHub, saving your change IS publishing
+it.** When you finish the steps below, the live site updates by itself in about a minute.
 
-### The easy way (content & events)
+> You only need two things: a free GitHub account that has been added to this project,
+> and a web browser. If you can fill out a form online, you can do this.
 
-1. Edit `js/content.js` (wording) or `js/events.js` (events) in any text editor.
-2. Save, then in a terminal:
-   ```bash
-   git add js/content.js js/events.js
-   git commit -m "Update content"
-   git push
-   ```
-3. Refresh the site after ~60 seconds.
+### Step-by-step: change the wording (tagline, about text, etc.)
 
-### For bigger or code changes (recommended workflow)
+1. Go to the project on GitHub:
+   **https://github.com/anthonyvetter/troop-999**
+2. Click the **`js`** folder, then click the **`content.js`** file to open it.
+3. Click the **pencil icon** (✏️) near the top-right of the file. It says *"Edit this file"*
+   when you hover over it. The file becomes editable.
+4. Find the text you want to change. **Only change the words inside the "quotation marks."**
+   Don't change anything before the colon (`:`) or remove any quotes, commas, or brackets.
+   - ✅ Good: changing `"Building confident kids, one adventure at a time."`
+     to `"Adventure, friendship, and fun await."`
+   - ❌ Avoid: deleting the quote marks, the comma at the end of the line, or the word
+     before the colon (like `tagline:`).
+5. When you're happy with your edit, scroll up and click the green **Commit changes…**
+   button in the top-right.
+6. A small box pops up. In the first line, type a short note about what you changed
+   (for example: *"Update the homepage tagline"*). Leave everything else as-is.
+7. Make sure **"Commit directly to the `main` branch"** is selected, then click the
+   green **Commit changes** button.
+8. ✅ Done! That's the "save and publish" step. Wait about **one minute**, then open
+   **https://anthonyvetter.github.io/troop-999/** and refresh the page to see your change.
+   (If you don't see it right away, wait another minute and refresh again — sometimes your
+   browser shows an old copy. A "hard refresh" with **Ctrl+Shift+R**, or **Cmd+Shift+R** on
+   a Mac, forces it to load the newest version.)
 
-Work on a branch and merge via a pull request so `main` always stays live and working:
+### Step-by-step: add or change an event
 
-```bash
-git checkout -b my-change      # start a branch
-# ...make edits...
-git add .
-git commit -m "Describe the change"
-git push -u origin my-change    # then open a Pull Request on GitHub
-```
+Exactly the same steps as above, except in **Step 2** you open the **`events.js`** file
+(inside the `js` folder) instead of `content.js`. Then:
 
-Merging that pull request into `main` deploys it automatically.
+- **To add an event:** copy one of the existing blocks (everything from a `{` down to the
+  matching `},` including the comma) and paste it right below, then change the details.
+  Keep the `date` in `YYYY-MM-DD` form, for example `2026-09-15`.
+- **To edit an event:** just change the text inside the quotation marks.
+- **To remove an event:** delete its whole block, from `{` through the `},`. (You usually
+  don't need to — past events disappear on their own.)
+
+Then follow **Steps 5–8** above to commit (save + publish).
+
+### If something looks broken after an edit
+
+Most likely a quotation mark, comma, or bracket got deleted by accident. The fix:
+
+1. On GitHub, open the file you edited and click the **"History"** link (top-right of the
+   file view, a small clock icon).
+2. Find your most recent change, click the **"..."** menu next to it, and choose
+   **"Revert"** to undo it. Commit that revert the same way (Steps 5–7).
+
+This puts the site back exactly as it was before your edit. You can't permanently break
+anything — every previous version is saved.
+
+### For developers (optional)
+
+If you're comfortable with git and a code editor, you can clone the repo, edit locally,
+and push to `main` — or open a pull request for larger changes. Every merge to `main`
+deploys automatically. The browser steps above are the recommended path for everyone else.
 
 ---
 
